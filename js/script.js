@@ -104,7 +104,7 @@ function cancelUpdate (){
 
 }
  function updateProduct(){
-     alert("Hello fOM UPDATE");
+    // alert("Hello fOM UPDATE");
     productContainer[updateIndex].name=productName.value;
     productContainer[updateIndex].price=productPrice.value;
     productContainer[updateIndex].category=productCategory.value;
