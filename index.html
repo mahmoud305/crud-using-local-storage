@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="form-group my-4">
+                <label for="name"> Product Name</label>
+                <input type="text" id="name" class="form-control">
+                <p id="invalid" class="text-danger fw-bold" ></p>
+            </div>
+
+            <div class="form-group my-4 ">
+                <label for="name"> Product Price</label>
+                <input type="text" id="price" class="form-control">
+                <p id="invalid" class="text-danger fw-bold" ></p>
+            </div>
+
+            <div class="form-group my-4">
+                <label for="name"> Product Category</label>
+                <input type="text" id="category" class="form-control">
+                <p id="invalid" class="text-danger fw-bold" ></p>
+            </div>
+
+            <div class="form-group my-4">
+                <label for="desc"> Product Description</label>
+                <textarea name="" id="desc" class="form-control"></textarea>
+            </div>
+            <div>
+                <p id="invalid" class="text-danger fw-bold" ></p>
+            </div>
+            <div class="my-2">
+                <button id="addButton" onclick="addProduct()" class=" btn btn-primary "> Add Product </button>
+                <button id="updateButton" onclick="updateProduct()" class=" btn btn-success  mx-1  d-none"> Update Product </button>
+                <button id="cancelButton"   onclick="cancelUpdate()" class=" btn btn-danger mx-1 d-none"> Cancel </button>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="searchInput">
+            <input type="text" onkeyup="searchProducts(this.value)" class="form-control" placeholder="Search"  >
+        </div>
+    </div>
+</div>
+
+
+    <div class="container ">
+
+        <div class="row my-5">
+            <table class="table">
+                <thead>
+                    <th>index </th>
+                    <th>Product Name </th>
+                    <th>Product Price </th>
+                    <th> Product Category </th>
+                    <th> Product Desc </th>
+                    <th> Update </th>
+                    <th> Delete</th>
+                </thead>
+                <tbody id="tableBody">
+                    <tr class="my-4"> 
+                    <!-- <td>
+                        0
+                    </td>
+                    <td>toshiba</td>
+                    <td>3000</td>
+                    <td>mobile</td>
+                    <td>nice</td> -->
+                
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+
+</body>
+
+</html>
