@@ -1,6 +1,6 @@
 # crud-using-local-storage
 
-#### The App can be used be used in many Fields as it contains the necessary operationswhich is :
+#### The App can be used be used in many Fields as it contains the necessary operations which is :
   - **Add Product :** you can add products to your repositery and display all the content of the repositery on your screen . ![add product](imges/1.PNG)
   - **Update Product :** you can update the product details by clicking on *update* button in the product row , then do some updates , click *update product* to save the updates .
    ![Update product](imges/2.PNG)  ![Update product](imges/3.PNG)
