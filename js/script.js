@@ -32,9 +32,9 @@ function addProduct(){
 }
 function validateProduct(product){
     // alert("validation");
-    let nameRegex=/^[A-Za-z]{3,}$/;
+    let nameRegex=/^[A-Za-z ]{3,}$/;
     let priceRegex=/^[1-9][0-9]*$/;
-    let categoryRegex=/^[A-Za-z]{1,50}$/;
+    let categoryRegex=/^[A-Za-z ]{1,50}$/;
     let validForm=true;
     
     // alert(priceRegex.test(product.price));
