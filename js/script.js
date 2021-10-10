@@ -32,6 +32,7 @@ function addProduct(){
 }
 function validateProduct(product){
     // alert("validation");
+   //[a-z0-9_-]{3,25}
     let nameRegex=/^[A-Za-z ]{3,}$/;
     let priceRegex=/^[1-9][0-9]*$/;
     let categoryRegex=/^[A-Za-z ]{1,50}$/;
